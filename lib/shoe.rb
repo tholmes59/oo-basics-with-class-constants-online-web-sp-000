@@ -18,4 +18,3 @@ class Shoe
 end
 
 
-a.uniq.each{|e| a2[e]= a.count(e)}
