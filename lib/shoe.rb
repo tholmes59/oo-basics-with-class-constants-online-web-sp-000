@@ -7,7 +7,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
     BRANDS << brand
-    genre.uniq.each{|e| a2[e]= a.count(e)}
+    genre.uniq.each{|e| GENRES[e]= genre.count(e)}
   end
 
   def cobble
