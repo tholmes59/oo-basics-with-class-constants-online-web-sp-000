@@ -7,7 +7,6 @@ class Shoe
   def initialize(brand)
     @brand = brand
     BRANDS << brand
-     brand.each{|e| BRANDS[e]= brand.count(e)}
   end
   
  
