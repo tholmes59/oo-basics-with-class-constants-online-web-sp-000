@@ -9,7 +9,7 @@ class Shoe
     BRANDS << brand
   end
   
-  brand.uniq.each{|e| BRANDS[e]= genre.count(e)}
+  brand.uniq.each{|e| BRANDS[e]= brand.count(e)}
 
   def cobble
     self.condition = "new"
